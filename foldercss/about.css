@@ -1,0 +1,112 @@
+html,
+body {
+    margin: 0px;
+    font-size: 14px;
+    line-height: 1.7;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333333;
+    background-image: url(../gambar/ep_naturalwhite.png);
+}
+
+.all {
+    width: 800px;
+    margin: 10px auto 0;
+    box-sizing: border-box;
+}
+
+
+ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    margin-left: 20px;
+    transition-duration: 1s;
+}
+
+header ul li a:hover {
+    text-decoration: none;
+    color: #afaaaa;
+    border-radius: 70%;
+    font-size: 24px;
+}
+
+.gam {
+    height: 250px;
+    background-image: url(../gambar/coverhead.jpg);
+    background-size: cover;
+    background-position: 0% 30%;
+    border-radius: 5px;
+}
+
+.table {
+    background-color: #d1d1d1;
+    padding: 5px 10px 50px;
+    border-radius: 5px;
+}
+
+.garis {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+.garis th,
+table,
+.garis .no {
+    border: 1.5px solid black;
+}
+
+.garis th,
+.garis td {
+    padding: 5px;
+}
+
+.garis th {
+    text-align: left;
+    color: white;
+    background-color: #a19e9e;
+}
+
+.garis tr:nth-child(even) {
+    background-color: #f2f2f2f2;
+
+}
+
+.end {
+    width: 800px;
+    margin: auto;
+    height: 80px;
+}
+
+.end ul li {
+    display: inline-block;
+}
+
+img.log {
+    width: 40px;
+    padding-top: 15px;
+    padding-left: 700px;
+}
+
+
+footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 650px;
+    bottom: 10px;
+    padding: 10px;
+
+}
+
+footer p {
+    margin-left: 800px;
+    color: #000000;
+    text-align: center;
+    font-size: 12px;
+}

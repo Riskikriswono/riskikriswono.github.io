@@ -1,0 +1,107 @@
+html,
+body {
+    margin: 0px;
+    font-size: 14px;
+    line-height: 1.7;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333333;
+    background-image: url(../gambar/ep_naturalwhite.png);
+}
+
+.all {
+    width: 800px;
+    margin: 10px auto 0px;
+    box-sizing: border-box;
+}
+
+
+ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    margin-left: 20px;
+    transition-duration: 1s;
+    transition-delay: 3;
+}
+
+header ul li a:hover {
+    text-decoration: none;
+    color: #afaaaa;
+    border-radius: 70%;
+    font-size: 22px;
+    transition-duration: 2s;
+}
+
+.gam {
+    height: 250px;
+    background-image: url(../gambar/coverhead.jpg);
+    background-size: cover;
+    background-position: 0% 30%;
+    border-radius: 5px;
+}
+
+section {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 5px 10px 80px;
+}
+
+form input[type="text"],
+select {
+    width: 250px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+form input[type="submit"],
+form input[type="reset"] {
+    width: 100px;
+    padding: 10px;
+    background-color: rgb(103, 199, 106);
+    ;
+    border-radius: 4px;
+}
+
+
+form input:focus {
+    outline-color: darkcyan;
+}
+
+.end {
+    width: 800px;
+    margin: auto;
+    height: 80px;
+}
+
+.end ul li {
+    display: inline-block;
+}
+
+img.log {
+    width: 40px;
+    padding-top: 15px;
+    padding-left: 700px;
+}
+
+
+footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 650px;
+    bottom: 10px;
+    padding: 10px;
+
+}
+
+footer p {
+    margin-left: 800px;
+    color: #000000;
+    text-align: center;
+    font-size: 12px;
+}

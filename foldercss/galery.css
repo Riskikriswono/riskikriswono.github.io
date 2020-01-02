@@ -1,0 +1,106 @@
+html,
+body {
+    margin: 0px;
+    font-size: 14px;
+    line-height: 1.7;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333333;
+    background-image: url(../gambar/ep_naturalwhite.png);
+}
+
+.all {
+    width: 800px;
+    margin: 10px auto 0;
+    box-sizing: border-box;
+}
+
+
+ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    margin-left: 20px;
+    transition-duration: 1s;
+}
+
+header ul li a:hover {
+    text-decoration: none;
+    color: #afaaaa;
+    border-radius: 70%;
+    font-size: 22px;
+}
+
+.gam {
+    height: 250px;
+    background-image: url(../gambar/coverhead.jpg);
+    background-size: cover;
+    background-position: 0% 30%;
+    border-radius: 5px;
+}
+
+.galeri {
+    height: 1589px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+.satu {
+
+    width: 250px;
+    height: 380px;
+    background-color: black;
+    float: left;
+    margin: 10px 0 10px 13px;
+    border-radius: 5px;
+}
+
+img {
+    width: 250px;
+    border-radius: 5px;
+}
+
+img:hover {
+    width: 300px;
+    border-radius: 5px;
+    transition-duration: 2s;
+    position: relative;
+}
+
+.end {
+    width: 800px;
+    margin: auto;
+    height: 80px;
+}
+
+.end ul li {
+    display: inline-block;
+}
+
+img.log {
+    width: 40px;
+    padding-top: 15px;
+    padding-left: 700px;
+}
+
+
+footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 650px;
+    bottom: 10px;
+    padding: 10px;
+
+}
+
+footer p {
+    margin-left: 800px;
+    color: #000000;
+    text-align: center;
+    font-size: 12px;
+}
