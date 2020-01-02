@@ -1,0 +1,141 @@
+html,
+body {
+    margin: 0px;
+    font-size: 14px;
+    line-height: 1.7;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333333;
+    background-image: url(../gambar/ep_naturalwhite.png);
+
+}
+
+
+header img.logo {
+    width: 150px;
+    padding: 30px;
+    border-radius: 40px;
+
+}
+
+ul.menu {
+    float: right;
+    list-style: none;
+
+}
+
+ul.menu li img {
+    width: 100px;
+}
+
+.menu li {
+    display: inline-block;
+    padding-top: 10px;
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: #241e1e;
+    font-size: 24px;
+    font-weight: 900px;
+    margin-right: 30px;
+    padding-left: 10px;
+    transition-duration: 2.5s;
+}
+
+.menu a:hover {
+    color: #ffffff;
+    transition-duration: 3s;
+}
+
+header {
+    background-color: #3d3a3a;
+    width: 800px;
+    margin: auto;
+    border-radius: 5px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 3px #5d6568 solid;
+}
+
+.universal {
+    width: 800px;
+    margin: auto;
+}
+
+.universal .profil {
+    width: 600px;
+    height: 800px;
+    float: left;
+    padding: 0 10px;
+    text-align: justify;
+    box-sizing: border-box;
+    border-left: 1px solid black;
+    border-radius: 5px;
+
+
+}
+
+.universal .gambar {
+    width: 200px;
+    height: 800px;
+    float: left;
+    box-sizing: border-box;
+    /* padding: 10px 10px 0; */
+    border-right: 1px solid black;
+    text-align: justify;
+    border-radius: 5px;
+    text-align: justify;
+    padding: 0 5px;
+    /* padding: 10px; */
+
+}
+
+ul.jenis li {
+    list-style: square;
+}
+
+img.gamprof,
+img.gam {
+    width: 100px;
+    padding-top: 16px;
+    float: left;
+}
+
+.c {
+    clear: left;
+}
+
+.end {
+    width: 800px;
+    margin: auto;
+    height: 80px;
+}
+
+.end ul li {
+    display: inline-block;
+}
+
+img.log {
+    width: 40px;
+    padding-top: 15px;
+    padding-left: 700px;
+}
+
+
+footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 650px;
+    bottom: 10px;
+    padding: 10px;
+
+}
+
+footer p {
+    margin-left: 800px;
+    color: #000000;
+    text-align: center;
+    font-size: 12px;
+}
